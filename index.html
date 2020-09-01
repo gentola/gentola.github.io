@@ -18,7 +18,7 @@
             let dest=document.getElementById("codice").value
             console.log(hashCode(dest))
             let newpage = hashCode(dest) + ".html"
-            window.location.replace(newpage);
+            location.href = newpage;
         }
         function hashCode(str){
             let hash = 0;
