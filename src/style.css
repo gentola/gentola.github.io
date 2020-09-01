@@ -1,0 +1,5 @@
+.gentola-tab#home { display:block; }
+
+.gentola-tab:not(:target) { display:none; }
+
+.gentola-tab:target ~ #home { display:none; }
