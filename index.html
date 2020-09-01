@@ -18,8 +18,8 @@
 <script>
     function access() {
         let dest=document.getElementById("inputPassword").value
-        console.log(hashCode(dest))
-        let newpage = "/" + hashCode(dest) + ".html"
+        let newpage = hashCode(dest) + ".html"
+        console.log(newpage)
         location.href = newpage;
         //document.body.className = ''
         //document.body.innerHTML = `<iframe style="width:100%;height:100%;" src="${newpage}" />`
