@@ -3,6 +3,7 @@ body {
     height: 100%;
 }
 
+.gentola-tab { margin-top: -56px; padding-top: 56px; }
 .gentola-tab#home { display:block; }
 
 .gentola-tab:not(:target) { display:none; }
