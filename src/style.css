@@ -1,9 +1,27 @@
 html,
 body {
     height: 100%;
+    background-color: #D0DFC6;
+    font-family: Futura;
 }
 
-.gentola-tab { margin-top: -56px; padding-top: 56px; }
+@font-face {
+    font-family: 'gentola';
+    src: url("Aisyah-Demo.otf") format("opentype");
+}
+.navbar {
+    background-color: #D0DFC6;
+}
+.gentola-titolo {
+    text-align:center;
+    padding-top: 100px;
+    font-family: 'gentola';
+}
+
+.gentola-tab {
+    margin-top: -56px;
+    padding-top: 56px;
+}
 .gentola-tab#home { display:block; }
 
 .gentola-tab:not(:target) { display:none; }
