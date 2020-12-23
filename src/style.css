@@ -41,4 +41,11 @@ body {
     .gentola-tab {
         margin-top: -224px; padding-top: 224px;
     }
+    .gentola-image {
+        margin-bottom: 20px;
+    }
+    .gentola-titolo  {
+        padding-top: 20px;
+        font-size: 20vw;
+    }
 }
