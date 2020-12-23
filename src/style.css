@@ -37,6 +37,10 @@ body {
     margin-bottom: 50px;
 }
 
+.gentola-iscrizione {
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .gentola-tab {
         margin-top: -224px; padding-top: 224px;
